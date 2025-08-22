@@ -1,0 +1,17 @@
+
+.circleFunfoQuimi {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background-color: #6A00FF;
+    mask-image: radial-gradient(circle, black 5%, transparent 50%);
+
+ -webkit-mask-image: radial-gradient(circle, black 5%, transparent 50%);
+
+  transform: scale(7.5);
+  position: fixed;
+  top: 90%;
+  right: 100%;
+  bottom: -50%;
+  z-index: -1;
+}

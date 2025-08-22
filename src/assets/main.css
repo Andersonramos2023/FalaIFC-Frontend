@@ -1,0 +1,31 @@
+@import './base.css';
+
+html{
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  line-height: 1.5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  transition: background-color 0.3s;
+  transition: all 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+body {
+  height: 100vh;
+  background-color: #000;
+font-family: 'Inter', sans-serif;
+  color: white;
+
+
+}
+
+:root {
+  --bg-color: #000;
+  --circle-color: #000;
+}
+
